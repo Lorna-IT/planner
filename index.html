@@ -4,10 +4,119 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <script src="https://kit.fontawesome.com/ea0ff230eb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Day Planner</title>
 </head>
 <body>
- <script src=https://momentjs.com/downloads/moment.min.js></script>   
- <script src=index.js></script>
+
+    <!-- start header container -->
+    <div class="container mt-5 mb-5">
+        <h1 class="display-3 text-center">Work Day Planner</h1>
+
+        <h4 class="text-center">A simple app for scheduling your work day</h4>
+        <h4 class="text-center text-muted" id="todaysDate"></h4>
+    </div>  
+    <!-- end header container -->
+
+    <div class="container mt-5 pt-5 mb-5 border">
+
+        <!-- start input container -->
+        <div class="input-group mb-3">
+            <label data-hour="9" class="input-group-text">9AM</label>
+            <input id="hour9" type="text" class="form-control" placeholder="Event here..." aria-label="Event here..." aria-describedby="button-addon2">
+            <div class="input-group-append">
+                <button class="btn btn-outline-primary saveBtn" type="button" id="button-addon2"><i class="fal fa-save"></i></button>
+            </div>
+        </div>
+        <!-- end input container -->
+
+        <!-- start input container -->
+        <div class="input-group mb-3">
+            <label data-hour="10" class="input-group-text">10AM</label>
+            <input id="hour10" type="text" class="form-control" placeholder="Event here..." aria-label="Event here..." aria-describedby="button-addon2">
+            <div class="input-group-append">
+                <button class="btn btn-outline-primary saveBtn" type="button" id="button-addon2"><i class="fal fa-save"></i></button>
+            </div>
+        </div>
+        <!-- end input container -->
+
+        <!-- start input container -->
+        <div class="input-group mb-3">
+            <label data-hour="11" class="input-group-text">11AM</label>
+            <input id="hour11" type="text" class="form-control" placeholder="Event here..." aria-label="Event here..." aria-describedby="button-addon2">
+            <div class="input-group-append">
+                <button class="btn btn-outline-primary saveBtn" type="button" id="button-addon2"><i class="fal fa-save"></i></button>
+            </div>
+        </div>
+        <!-- end input container -->
+
+        <!-- start input container -->
+        <div class="input-group mb-3">
+            <label data-hour="12" class="input-group-text">12PM</label>
+            <input id="hour12" type="text" class="form-control" placeholder="Event here..." aria-label="Event here..." aria-describedby="button-addon2">
+            <div class="input-group-append">
+                <button class="btn btn-outline-primary saveBtn" type="button" id="button-addon2"><i class="fal fa-save"></i></button>
+            </div>
+        </div>
+        <!-- end input container -->
+
+        <!-- start input container -->
+        <div class="input-group mb-3">
+            <label data-hour="13" class="input-group-text">1PM</label>
+            <input id="hour13" type="text" class="form-control" placeholder="Event here..." aria-label="Event here..." aria-describedby="button-addon2">
+            <div class="input-group-append">
+                <button class="btn btn-outline-primary saveBtn" type="button" id="button-addon2"><i class="fal fa-save"></i></button>
+            </div>
+        </div>
+        <!-- end input container -->
+
+        <!-- start input container -->
+        <div class="input-group mb-3">
+            <label data-hour="14" class="input-group-text">2PM</label>
+            <input id="hour14" type="text" class="form-control" placeholder="Event here..." aria-label="Event here..." aria-describedby="button-addon2">
+            <div class="input-group-append">
+                <button class="btn btn-outline-primary saveBtn" type="button" id="button-addon2"><i class="fal fa-save"></i></button>
+            </div>
+        </div>
+        <!-- end input container -->
+
+        <!-- start input container -->
+        <div class="input-group mb-3">
+            <label data-hour="15" class="input-group-text">3PM</label>
+            <input id="hour15" type="text" class="form-control" placeholder="Event here..." aria-label="Event here..." aria-describedby="button-addon2">
+            <div class="input-group-append">
+                <button class="btn btn-outline-primary saveBtn" type="button" id="button-addon2"><i class="fal fa-save"></i></button>
+            </div>
+        </div>
+        <!-- end input container -->
+
+        <!-- start input container -->
+        <div class="input-group mb-3">
+            <label data-hour="16" class="input-group-text">4PM</label>
+            <input id="hour16" type="text" class="form-control" placeholder="Event here..." aria-label="Event here..." aria-describedby="button-addon2">
+            <div class="input-group-append">
+                <button class="btn btn-outline-primary saveBtn" type="button" id="button-addon2"><i class="fal fa-save"></i></button>
+            </div>
+        </div>
+        <!-- end input container -->
+
+        <!-- start input container -->
+        <div class="input-group mb-3">
+            <label data-hour="17" class="input-group-text">5PM</label>
+            <input id="hour17" type="text" class="form-control" placeholder="Event here..." aria-label="Event here..." aria-describedby="button-addon2">
+            <div class="input-group-append">
+                <button class="btn btn-outline-primary saveBtn" type="button" id="button-addon2"><i class="fal fa-save"></i></button>
+            </div>
+        </div>
+        <!-- end input container -->
+
+    </div>
+    <!-- End main container -->
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://momentjs.com/downloads/moment.min.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>

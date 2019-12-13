@@ -8,7 +8,7 @@ body{
 
 .border {
     border: none !important;
-    border-top: 5px solid blueviolet !important;
+    border-top: 5px solid black !important;
 }
 
 .input-group-text {
