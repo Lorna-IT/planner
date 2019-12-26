@@ -62,9 +62,10 @@ function saveText () {
 }
 
 // gets the "hour" from localstorage and parse (into object)
-let hourEvent = JSON.parse(localStorage.getItem("hour"));
+let hourEvent = JSON.parse(localStorage.getItem("hour")) || {};
 
 console.log(hourEvent)
+
 
 // sets the value of each input to local storage value (to keep the text on the page on reload)
 $("#hour9").val(hourEvent.hour9);
